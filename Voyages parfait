@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+       <title>Challenge: A picture-perfect trip</title>
+       <meta charset="utf-8">
+   </head>
+   <body>
+       <h1>The perfect trip to <em>Bora Bora</em></h1>
+       <ul>
+       <li><p>I would <strong>see <em>scenes</em></strong> like...</p></li>
+       <p><img src="https://th.bing.com/th/id/OIP.YlwTFECwnOc7DVJGQEWetAHaEK?w=303&h=180&c=7&o=5&pid=1.7" alt="L'ocean"></p>
+       <li><p>And <strong>animals</strong> like...</p></li>
+       <p><img src="https://th.bing.com/th/id/OIP.5bTyoGN6V5tj5t8ucqu6AgHaE8?w=244&h=180&c=7&o=5&pid=1.7" alt="Jellyfish"></p>
+       <li><p>And <strong><em>eat</em> food</strong> like...</p></li>
+       <p><img src="https://th.bing.com/th/id/OIP.dbY5ZeYkwa-HdxKU65dA7gHaFj?w=274&h=205&c=7&o=5&pid=1.7" alt="exotic fish"></p>
+       </ul>
+      
+   </body>
+</html>
