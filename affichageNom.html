@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>Inscription</title>
+ </head>
+ <body>
+ <h1>Formulaire d'affichage de nom</h1>
+   
+   <br>
+  
+   Mettez votre prenom
+   
+   <br>
+   
+   <input type= "text"id= "textNom">
+   
+   <br>
+   <br>
+   Mettez votre nom millieux
+   
+   <br>
+   
+   <input type= "text"id= "textNom2">
+   
+   <br>
+   <br>
+  Mettez votre nom de famille
+
+ <br>
+ <input type= "text"id= "textNom3">
+  <br>
+   <input type= "button"id= "soumettre" onclick= "confirmeInscription()" value= "Soummet le formulaire">  
+   <br>
+  
+   <div id="divAffiche">
+<script>
+         function confirmeInscription() {
+             //Chercher les données dans le formulaire
+             var nom = document.getElementById("textNom").value;
+             var nom2 = document.getElementById("textNom2").value;
+             var nom3 = document.getElementById("textNom3").value;
+            var affiche = document.getElementById("divAffiche");
+            var message = (nom + nom2 + nom3)
+                  
+            
+            
+            affiche.innerHTML = message;
+ }
+     
+     </script>
+ </body>
